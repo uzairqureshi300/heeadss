@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.heads">
+
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        tools:replace="android:icon"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_noactionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientDetails.PatientDetailsScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_noactionbar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".PractitionerRegistration.PractitionerRegistrationScreen"
+            android:theme="@style/AppTheme_noactionbar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".PractitionerLogin.PractitionerLoginScreen"
+            android:theme="@style/AppTheme_noactionbar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".WelcomePatient.WelcomePatientScreen"
+            android:label="@string/title_activity_welcome_patient_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

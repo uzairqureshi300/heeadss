@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Headss</string>
+    <string name="welcome">Thank you, and welcome to HEEADSSS!</string>
+    <string name="get_started">To get started, please fill in your details below.</string>
+    <string name="registration_txt">REGISTER YOUR ACCOUNT</string>
+    <string name="login_txt">LOGIN TO YOUR ACCOUNT</string>
+    <string name="title_activity_welcome_patient_screen">WelcomePatientScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

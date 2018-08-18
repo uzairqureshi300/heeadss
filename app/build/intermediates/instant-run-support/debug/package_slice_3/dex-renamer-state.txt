@@ -1,0 +1,4 @@
+#Sat Aug 18 12:37:39 PKT 2018
+base.0=E\:\\Office\\Headss\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

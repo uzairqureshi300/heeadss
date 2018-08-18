@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sun Aug 12 21:30:38 PKT 2018
+1.base=E\:\\Office\\Headss\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=Myriad Pro Regular.ttf
+0.set=ASSET
+0.base=E\:\\Office\\Headss\\app\\build\\intermediates\\assets\\debug
+1.path=MontserratAlternates-Medium.otf

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+<include layout="@layout/header"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="19dp"
+     android:layout_marginTop="20dp"
+     android:layout_marginLeft="30dp"
+     android:layout_marginRight="30dp"
+     android:layout_marginBottom="15dp"
+    android:id="@+id/welcome_textview"
+     android:textColor="@color/welcome_text_color"
+     android:text="@string/welcome"
+     />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/welcome_textview"
+        android:id="@+id/getstarted_textview"
+        android:textColor="@color/getstarted_text_color"
+        android:text="@string/get_started"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:id="@+id/name_view"
+    android:layout_below="@+id/getstarted_textview"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_label__textview"
+        android:textSize="17dp"
+        android:textColor="@color/getstarted_text_color"
+        android:text="Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/getstarted_text_color"
+        android:background="@drawable/editext_selector_grey"
+        android:inputType="textCapWords"
+        android:id="@+id/name_editext"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/age_view"
+        android:layout_below="@+id/name_view"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/age_label__textview"
+            android:textSize="17dp"
+            android:textColor="@color/getstarted_text_color"
+            android:text="Age"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:id="@+id/age_editext"
+            android:textColor="@color/getstarted_text_color"
+            android:background="@drawable/editext_selector_grey"
+            android:paddingLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:id="@+id/region_view"
+        android:layout_below="@+id/age_view"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/region_label__textview"
+            android:textSize="17dp"
+            android:textColor="@color/getstarted_text_color"
+            android:text="Region"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/spinner_region"
+
+            android:background="@drawable/spinner_bg"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/next_text_color"
+        android:orientation="vertical"
+        android:layout_below="@+id/region_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/margin_next_button"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/next_label__textview"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="NEXT"/>
+            />
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
+</LinearLayout>

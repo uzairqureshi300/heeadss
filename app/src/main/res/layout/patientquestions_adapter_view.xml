@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+         android:textSize="20dp"
+        android:text="Question 1"
+        android:id="@+id/question_no"
+        android:paddingLeft="10dp"
+        android:textColor="@color/bg_color"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:textSize="16dp"
+        android:layout_below="@+id/question_no"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna?"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/question"
+        android:textColor="@color/getstarted_text_color"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/question">
+
+    <TextView
+
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:text="YES"/>
+    <TextView
+
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:text="NO"/>
+
+</LinearLayout>
+</RelativeLayout>
